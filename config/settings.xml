@@ -1,0 +1,31 @@
+<settings>
+    <profiles>
+        <profile>
+            <id>realdolmen</id>
+            <repositories>
+                <repository>
+                    <id>realdolmen</id>
+                    <url>https://nexus.realdolmen.com/repository/maven-automation-testing-framework-snapshots/</url>
+                    <releases>
+                        <enabled>true</enabled>
+                    </releases>
+                    <snapshots>
+                        <enabled>true</enabled>
+                    </snapshots>
+                </repository>
+            </repositories>
+            <pluginRepositories>
+            </pluginRepositories>
+        </profile>
+    </profiles>
+    <activeProfiles>
+        <activeProfile>realdolmen</activeProfile>
+    </activeProfiles>
+    <servers>
+        <server>
+            <id>realdolmen</id>
+            <username>${NEXUS_RD_USERNAME}</username>
+            <password>${NEXUS_RD_PASSWORD}</password>
+        </server>
+    </servers>
+</settings>

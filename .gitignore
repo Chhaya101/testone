@@ -1,0 +1,4 @@
+.idea/
+target/
+*credentials.properties
+/CP-Toyota-Automation-Tests.iml
